@@ -1,0 +1,136 @@
+{{!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body> --}}
+  {{!-- <div class="container-fluid pt-4">
+<div class="modal fade" id="modalAdd" tabindex="-1" aria-labelledby="modalAdd" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Add book</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <form method="post">
+            <div class="modal-body">
+              <div class="align-items-center">
+                <div class="row mb-2 align-items-center">
+                  <div class="col-lg-4 col-md-12 col-xs-12">
+                    <label class="col-form-label">Isbn:</label>
+                  </div>
+                  <div class="col-lg-8 col-md-12 col-xs-12">
+                    <input type="number" class="form-control" id="isbn" name="isbn" min="0" required>
+                  </div>
+                </div>
+                <div class="row mb-2 align-items-center">
+                  <div class="col-lg-4 col-md-12 col-xs-12">
+                    <label class="col-form-label">Title:</label>
+                  </div>
+                  <div class="col-lg-8 col-md-12 col-xs-12">
+                    <input type="text" class="form-control" id="title" name="title" required>
+                  </div>
+                </div>
+                <div class="row mb-2 align-items-center">
+                  <div class="col-lg-4 col-md-12 col-xs-12">
+                    <label class="col-form-label">Author:</label>
+                  </div>
+                  <div class="col-lg-8 col-md-12 col-xs-12">
+                    <input type="text" class="form-control" id="author" name="author" required>
+                  </div>
+                </div>
+                <div class="row mb-2 align-items-center">
+                  <div class="col-lg-4 col-md-12 col-xs-12">
+                    <label class="col-form-label">Publisher:</label>
+                  </div>
+                  <div class="col-lg-8 col-md-12 col-xs-12">
+                    <input type="text" class="form-control" id="publisher" name="publisher" required>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="modal-footer">
+              <button type="submit" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+              <button type="submit" class="btn btn-primary">Add</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div> --}}
+
+
+  
+{{!-- 
+<h1>Hello</h1>
+</body>
+</html> --}}
+
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<form class="form-horizontal" method="POST">
+<fieldset>
+
+<!-- Form Name -->
+<legend>BOOKS</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="product_name">ISBN:</label>  
+  <div class="col-md-4">
+  <input type="number" class="form-control" id="isbn" name="isbn" min="0" required>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="product_name_fr">TITLE:</label>  
+  <div class="col-md-4">
+  <input type="text" class="form-control" id="title" name="title" required>
+  </div>
+</div>
+
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="available_quantity">AUTHOR:</label>  
+  <div class="col-md-4">
+  <input type="text" class="form-control" id="author" name="author" required>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="product_weight">PUBLISHER:</label>  
+  <div class="col-md-4">
+  <input type="text" class="form-control" id="publisher" name="publisher" required>
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="singlebutton">Single Button</label>
+  <div class="col-md-4">
+    <button id="singlebutton" name="singlebutton" class="btn btn-primary">Button</button>
+  </div>
+  </div>
+
+</fieldset>
+</form>
+
+
+
+
